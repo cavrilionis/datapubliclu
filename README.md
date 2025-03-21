@@ -2,9 +2,6 @@ datapubliclu: R Package for Accessing data.public.lu Datasets
 ================
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
-# datapubliclu
-
 <!-- badges: start -->
 <!-- badges: end -->
 
@@ -16,7 +13,7 @@ and importing data directly into your R environment.
 # Installation
 
 You can install the development version of `datapubliclu` from GitHub
-using `remotes`:
+using `remotes`.
 
 ``` r
 # install.packages("remotes")
@@ -32,6 +29,13 @@ specific datasets, and import them into R.
 
 Use the `list_datasets()` function to retrieve a list of available
 datasets.
+
+``` r
+library(datapubliclu)
+
+datasets <- list_datasets()
+print(datasets)
+```
 
 ## Downloading and Importing a Dataset
 
@@ -61,7 +65,8 @@ Use the `get_dataset_metadata()` function to retrieve metadata for a
 specific dataset.
 
 ``` r
-# Example: Retrieving metadata for the "Prix de vente des appartements par commune" dataset
+# Example: Retrieving metadata for the
+# "Prix de vente des appartements par commune" dataset
 metadata <- get_dataset_metadata("prix-de-vente-des-appartements-par-commune")
 print(metadata)
 ```
@@ -89,17 +94,20 @@ library(ggplot2)
 
 population_data <- get_dataset("population-par-commune")
 
-population_summary <- population_data %>%
-  group_by(Commune) %>%
-  summarise(Total_Population = sum(Population)) %>%
+population_summary <- population_data |>
+  group_by(Commune) |>
+  summarise(Total_Population = sum(Population)) |>
   arrange(desc(Total_Population))
 
 print(head(population_summary))
 
-ggplot(head(population_summary, 10), aes(x = reorder(Commune, Total_Population), y = Total_Population)) +
+ggplot(head(population_summary, 10),
+       aes(x = reorder(Commune, Total_Population), y = Total_Population)) +
   geom_bar(stat = "identity") +
   coord_flip() +
-  labs(title = "Top 10 Communes by Population", x = "Commune", y = "Total Population")
+  labs(title = "Top 10 Communes by Population",
+       x = "Commune",
+       y = "Total Population")
 ```
 
 # Contributing
@@ -127,5 +135,5 @@ This package is licensed under the MIT License.
 
 # Issues and Support
 
-If you encounter any issues or have questions, please open an issue on
-[GitHub](https://github.com/cavrilionis/datapubliclu).
+If you encounter any issues or have questions, please [open an
+issue](https://github.com/cavrilionis/datapubliclu/issues).
