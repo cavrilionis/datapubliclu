@@ -1,8 +1,4 @@
----
-output: 
-  html_document: 
-    self_contained: false
----
+
 # Security Policy
 
 This document outlines the security procedures and guidelines for reporting and addressing security vulnerabilities in this project.
