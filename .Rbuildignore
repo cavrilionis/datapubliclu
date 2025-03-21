@@ -7,3 +7,7 @@
 ^pkgdown$
 ^_pkgdown\.yml$
 ^\.github$
+^CODE_OF_CONDUCT\.md$
+^logo\.R$
+^CONTRIBUTING\.md$
+^SECURITY\.md$
