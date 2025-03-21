@@ -1,0 +1,13 @@
+Package: datapubliclu
+Title: R Package for Accessing data.public.lu Datasets
+Version: 0.0.0.9000
+Authors@R: 
+    person("Christos", "Avrilionis",
+      email = "avrilionis@gmail.com",
+      role = c("aut", "cre"),
+      comment = c(ORCID = "0009-0005-5444-8067"))
+Description: This package provides a convenient interface for accessing datasets from https://data.public.lu, the open data portal of Luxembourg. It simplifies the process of downloading and importing data directly into your R environment.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
