@@ -1,7 +1,6 @@
 
 # Load necessary libraries
 library(ggplot2)
-library(gridExtra)
 
 # Create the hexagon data
 hexagon <- data.frame(
@@ -38,4 +37,4 @@ p <- ggplot() +
   theme(plot.background = element_rect(fill = "transparent", color = NA))
 
 # Save the plot as a PNG file with a transparent background
-ggsave("man/figures/README-/logo.png", plot = p, width = 5, height = 5, bg = "transparent")
+ggsave("man/figures/logo.png", plot = p, width = 5, height = 5, bg = "transparent")
