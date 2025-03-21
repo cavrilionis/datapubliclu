@@ -1,8 +1,4 @@
----
-output: 
-  html_document: 
-    self_contained: false
----
+
 # Contributing Guidelines
 
 Thank you for your interest in contributing to this project! We welcome contributions from everyone, regardless of experience level.
