@@ -1,5 +1,4 @@
 ---
-title: "datapubliclu: R Package for Accessing data.public.lu Datasets"
 output: github_document
 ---
 
@@ -10,14 +9,18 @@ knitr::opts_chunk$set(
   echo = TRUE,
   eval = FALSE,
   comment = "#>",
-  fig.path = "man/figures/README-"
+  fig.path = "man/figures/README-",
+  out.width = "100%"
 )
 ```
+
+# datapubliclu <a href="https://data.public.lu/en/"><img src="man/figures/logo.png" align="right" height="138" /></a>
 
 <!-- badges: start -->
 
 <!-- badges: end -->
 
+## Overview
 The `datapubliclu` R package provides a convenient interface for accessing datasets from [data.public.lu](https://data.public.lu), the open data portal of Luxembourg. It simplifies the process of downloading and importing data directly into your R environment.
 
 # Installation

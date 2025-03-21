@@ -1,9 +1,12 @@
-datapubliclu: R Package for Accessing data.public.lu Datasets
-================
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# datapubliclu <a href="https://data.public.lu/en/"><img src="man/figures/logo.png" align="right" height="138" /></a>
+
 <!-- badges: start -->
 <!-- badges: end -->
+
+## Overview
 
 The `datapubliclu` R package provides a convenient interface for
 accessing datasets from [data.public.lu](https://data.public.lu), the
