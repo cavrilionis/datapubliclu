@@ -4,6 +4,8 @@
 # datapubliclu <a href="https://data.public.lu/en/"><img src="man/figures/logo.png" align="right" height="138" /></a>
 
 <!-- badges: start -->
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 <!-- badges: end -->
 
 ## Overview
