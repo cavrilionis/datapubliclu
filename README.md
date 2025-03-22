@@ -57,7 +57,7 @@ head(population_data)
 
 ## Searching for Datasets
 
-Use the search_datasets() function to search for datasets based on
+Use the `search_datasets()` function to search for datasets based on
 keywords.
 
 ``` r
