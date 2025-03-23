@@ -8,6 +8,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![R-CMD-check](https://github.com/cavrilionis/datapubliclu/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/cavrilionis/datapubliclu/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 ## Overview
